@@ -4,6 +4,9 @@ export default {
   darkMode: ["class"],
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      sans: ["Poppins", "sans-serif"],
+    },
     extend: {
       borderRadius: {
         lg: "var(--radius)",

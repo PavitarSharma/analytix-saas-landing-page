@@ -1,14 +1,21 @@
+import { ReactLenis } from "lenis/react";
+
 /**
- *
  * Components
  */
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 
 const App = () => {
   return (
-    <div>
-      <Header />
-    </div>
+    <ReactLenis root>
+      <div className="relative isolate overflow-hidden">
+        <Header />
+        <main>
+          <Hero />
+        </main>
+      </div>
+    </ReactLenis>
   );
 };
 
