@@ -85,4 +85,8 @@
   .scrollbar-hidden::-webkit-scrollbar {
     @apply hidden;
   }
+
+  .section {
+    @apply py-8 md:py-16;
+  }
 }
